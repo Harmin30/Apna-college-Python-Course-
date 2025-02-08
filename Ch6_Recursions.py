@@ -61,7 +61,8 @@ def cal_prod(a=1,b=1): #default parameters
 
 cal_prod(2,4)
 
-# Let's Practice
+# ...................Let's Practice................
+
 # Q1. WAF to print the length of a list. ( list is the parameter)
 
 cities = ["baroda","anand","mumbai","delhi","Pune"]
@@ -72,6 +73,9 @@ def print_len(list):
 
 print_len(cities) #6
 print_len(planets) #3 
+
+# Output : 6
+# Output : 3
 
 # Q2. WAF to print the elements of a list in a single line. ( list is the parameter)
 
@@ -90,7 +94,7 @@ print_list(cities)
 print_list(planets)
 print_list(heros) 
 
-
+# Output : baroda anand mumbai delhi Pune earth mars jupiter thor ironman shaktiman
 
 # Q3.WAF to find the factorial of n. (n is the parameter)
 
@@ -102,7 +106,9 @@ def cal_fact(n):
     print(fact) 
     return fact
 
-cal_fact(5) #120
+cal_fact(5) 
+
+# Output : 120
 
 # Q4.WAF to convert USD to INR.
 
