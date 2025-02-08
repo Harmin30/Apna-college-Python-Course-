@@ -14,14 +14,19 @@ def calc_sum(a,b):
 
 calc_sum(2 , 10)
 
+#--> Output: 12
 
 #more lines of code 
 
 calc_sum(123 , 932)
 
+#--> Output: 1055
+
 #more lines of code
 
 calc_sum(87,13)
+
+#--> Output: 100
 
 #Function definition:
 
@@ -37,7 +42,7 @@ def print_hello():
 output = print_hello()
 print(output) #None
 
-#Average of 3 numbers :
+# Q. Average of 3 numbers :
 
 def calc_avg(a,b,c):
     sum = a+b+c
@@ -46,6 +51,8 @@ def calc_avg(a,b,c):
     return avg
 
 calc_avg(4,5,1)
+
+# Output : 3.3333333333333335
 
 #...................Types of functions..........
 
@@ -60,6 +67,8 @@ def cal_prod(a=1,b=1): #default parameters
     return a*b 
 
 cal_prod(2,4)
+
+# Output : 8
 
 # ...................Let's Practice................
 
